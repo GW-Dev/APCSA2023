@@ -35,9 +35,17 @@ class StringRemover {
 
     public String removeStrings() {
         String senChange = sentence;
-        int toTrash = senChange.indexOf(remove);
-        while (sentence.contains(remove)) {
 
+        while (senChange.contains(remove)) {
+            int toTrash = senChange.indexOf(remove);
+            if (senChange.substring(0,remove.length()).equals(remove)){
+                senChange = senChange.substring(remove.length());
+                System.out.println(senChange);
+            }
+            else {
+                senChange = senChange.substring(0, toTrash - 1) + senChange.substring(toTrash + remove.length());
+                System.out.println(senChange);
+            }
         }
         return senChange;
     }
