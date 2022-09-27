@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APCSA2023.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/Lab01_StringCleaner.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/StringRemover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/StringRemoverRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab02_ValidPassword/3_loops_PasswordChecking.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab02_ValidPassword/PassRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab02_ValidPassword/PasswordCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab03_GuessingGame/2_loops_GuessingGame.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab03_GuessingGame/2_loops_GuessingGame.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab03_GuessingGame/GuessRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab03_GuessingGame/GuessingGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab04_MultiplicationTable/2_for_loops_MultTable.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab04_MultiplicationTable/MultTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab04_MultiplicationTable/MultTableRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab05_BackwardsString/1_for_loops_BackwardsString.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab05_BackwardsString/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab05_BackwardsString/WordRunner.java" afterDir="false" />
+    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="Initial Push">
+      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/StringRemover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/StringRemover.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +60,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664285852062</updated>
-      <workItem from="1664285853246" duration="899000" />
+      <workItem from="1664285853246" duration="1366000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Push">
+      <created>1664286779656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664286779656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +85,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Push" />
   </component>
 </project>

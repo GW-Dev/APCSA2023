@@ -22,7 +22,7 @@ class StringRemover {
     }
 
     public String getResult() {
-        return "";
+        return this.removeStrings();
     }
 
     public void setSentence(String s) {
@@ -33,12 +33,13 @@ class StringRemover {
         this.remove = r;
     }
 
-    public void removeStrings() {
+    public String removeStrings() {
+        String senChange = sentence;
+        int toTrash = senChange.indexOf(remove);
         while (sentence.contains(remove)) {
-            String senChange = sentence;
-            int toTrash = senchange.indexOf(remove);
 
         }
+        return senChange;
     }
 
     public String toString() {
