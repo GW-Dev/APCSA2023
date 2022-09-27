@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APCSA2023.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/Lab01_StringCleaner.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/StringRemover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/StringRemoverRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab02_ValidPassword/3_loops_PasswordChecking.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab02_ValidPassword/PassRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab02_ValidPassword/PasswordCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab03_GuessingGame/2_loops_GuessingGame.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab03_GuessingGame/2_loops_GuessingGame.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab03_GuessingGame/GuessRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab03_GuessingGame/GuessingGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab04_MultiplicationTable/2_for_loops_MultTable.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab04_MultiplicationTable/MultTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab04_MultiplicationTable/MultTableRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab05_BackwardsString/1_for_loops_BackwardsString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab05_BackwardsString/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab05_BackwardsString/WordRunner.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="c8c61fde-65e5-4082-bc31-9dda5fee1864" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FLyqdt0GUjide70ApkhLUXBA2N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/grant/IdeaProjects/APCSA2023/src/APCSA2023",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src\APCSA2023" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\grant\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="" />
+      <created>1664285852062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664285852062</updated>
+      <workItem from="1664285853246" duration="899000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
