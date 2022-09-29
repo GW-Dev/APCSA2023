@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="Initial Push">
+    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="Push 2">
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/1_loops_StringCleaner.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/Lab01_StringCleaner.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/StringRemover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/StringRemover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/StringRemoverRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/StringRemoverRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +36,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/grant/IdeaProjects/APCSA2023/src/APCSA2023",
+    "last_opened_file_path": "C:/Users/grant/IdeaProjects/APCSA2023/src/APCSA2023/Lab01_StringCleaner",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src\APCSA2023\Lab01_StringCleaner" />
       <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src\APCSA2023" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -62,7 +64,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664285852062</updated>
-      <workItem from="1664285853246" duration="2645000" />
+      <workItem from="1664285853246" duration="3390000" />
+      <workItem from="1664456690802" duration="593000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1664286779656</created>
@@ -78,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664287244807</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Push 2">
+      <created>1664288672373</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664288672373</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +107,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Push" />
+    <MESSAGE value="Push 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push 2" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
