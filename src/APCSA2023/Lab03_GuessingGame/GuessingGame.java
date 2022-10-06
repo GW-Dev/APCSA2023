@@ -10,6 +10,7 @@ public class GuessingGame
 	private int upperBound;
 	private boolean continuePlaying = true;
 	private int failCount = 0;
+	private int target;
 
 	private int timeThru = 0;
 
@@ -20,40 +21,41 @@ public class GuessingGame
 
 	public void playGame()
 	{
+		this.target = ((int)(Math.random()*4))+1;
 		int guess;
 		this.continuePlaying = true;
 		Scanner keyboard = new Scanner(System.in);
-
+		System.out.print("Enter a number between 1 and " + this.upperBound + " ");
+		guess = keyboard.nextInt();
 		do {
-			System.out.print("Enter a number between 1 and " + this.upperBound + " ");
-			guess = keyboard.nextInt();
-
 			if (guess > this.upperBound || guess < 1) {
 				System.out.println("Number out of range!");
 				System.out.print("Enter a number between 1 and " + this.upperBound + " ");
 				guess = keyboard.nextInt();
 			}
-			else if (guess >= 1 || guess <= this.upperBound) {
+			else if ((guess >= 1 || guess <= this.upperBound) && guess != target) {
+				failCount++;
+				timeThru++;
 				System.out.print("Enter a number between 1 and " + this.upperBound + " ");
 				guess = keyboard.nextInt();
-				this.failCount++;
+
 			}
-
-
-			if (guess == this.upperBound) {
+			if (target == guess) {
 				System.out.print(this.infoOutput());
 				String cont = keyboard.next();
-				if (cont.toLowerCase() == "y") {
+				if (cont.toLowerCase().equals("y")) {
 					this.timeThru++;
+					System.out.print("Guessing Game - how many numbers? ");
+					this.upperBound = keyboard.nextInt();
 					this.playGame();
-				} else if (cont.toLowerCase() == "n") {
+				} else if (cont.toLowerCase().equals("n")) {
 					System.exit(0);
 				} else {
 					System.out.println("Invalid input. Enter y or n");
 					cont = keyboard.next();
 				}
 			}
-		} while (upperBound != guess);
+		} while (target != guess);
 
 
 	}
@@ -62,7 +64,7 @@ public class GuessingGame
 		return this.continuePlaying;
 	}
 	public String infoOutput() {
-		String toPush = "\nIt took " + this.failCount + " guesses to guess " + this.upperBound + ".\nYou guessed wrong " + String.format("%.0f", ((int) this.failCount/ (this.timeThru + this.failCount)))+ " percent of the time. \n\nDo you want to play again? ";
+		String toPush = "\nIt took " + this.failCount + " guesses to guess " + this.target + ".\nYou guessed wrong " + (int)(((double) failCount/(upperBound))*100) + " percent of the time. \n\n\nDo you want to play again? ";
 		return toPush;
 	}
 	public String toString()
