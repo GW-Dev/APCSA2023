@@ -8,26 +8,39 @@ public class Word
 
 	public Word(String s)
 	{
+		this.word = s;
+	}
+
+	public void setWord(String w) {
+		this.word = w;
 	}
 
 	public char getFirstChar()
 	{
-		return 0;
+		return word.charAt(0);
 	}
 
 	public char getLastChar()
 	{
-		return 0;
+		return word.charAt(word.length()-1);
 	}
 
 	public String getBackWards()
 	{
 		String back="";
+		char[] wordArray = word.toCharArray();
+		char[] wordArray2 = word.toCharArray();
+		for (int i = word.length(); i > 0; i--) {
+			char transferArray = wordArray[word.length() - i];
+			wordArray2[i-1] = transferArray;
+		}
+
+		back = String.valueOf(wordArray2);
 		return back;
 	}
 
  	public String toString()
  	{
- 		return "";
+ 		return String.valueOf(this.getFirstChar()) + "\n" + String.valueOf(this.getLastChar()) + "\n" + this.getBackWards() + "\n" + this.word;
 	}
 }
