@@ -9,9 +9,20 @@ public class MultTable
 
 	public MultTable(int n, int s)
 	{
+		this.number = n;
+		this.stop = s;
 	}
 
-	public void printTable( )
+	public void setNumStop(int b, int c) {
+		this.number = b;
+		this.stop = c;
+	}
+
+	public void printTable()
 	{
+		System.out.println("Multiplication table for " + this.number);
+		for (int a = 1; a <= this.stop; a++) {
+			System.out.println(a + " " + (a)*(number));
+		}
 	}
 }
