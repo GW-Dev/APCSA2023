@@ -27,20 +27,17 @@ public class Word
 
 	public String getBackWards()
 	{
-		String back="";
 		char[] wordArray = word.toCharArray();
 		char[] wordArray2 = word.toCharArray();
 		for (int i = word.length(); i > 0; i--) {
 			char transferArray = wordArray[word.length() - i];
 			wordArray2[i-1] = transferArray;
 		}
-
-		back = String.valueOf(wordArray2);
-		return back;
+		return String.valueOf(wordArray2);
 	}
 
  	public String toString()
  	{
- 		return String.valueOf(this.getFirstChar()) + "\n" + String.valueOf(this.getLastChar()) + "\n" + this.getBackWards() + "\n" + this.word;
+ 		return (this.getFirstChar()) + "\n" + (this.getLastChar()) + "\n" + this.getBackWards() + "\n" + this.word;
 	}
 }
