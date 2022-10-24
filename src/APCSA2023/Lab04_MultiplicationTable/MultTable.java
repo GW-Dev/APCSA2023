@@ -16,18 +16,24 @@ public class MultTable {
     /**
      * More descriptive parameter names would be better.
      */
-    public void setNumStop(int b, int c) {
-        this.number = b;
-        this.stop = c;
+    public void setNumStop(int setNum, int setStop) {
+        this.number = setNum;
+        this.stop = setStop;
     }
 
     /**
      * Output has incorrect formatting. See handout.
      */
     public void printTable() {
-        System.out.println("Multiplication table for " + this.number);
+        System.out.println("\nMultiplication table for " + this.number);
         for (int a = 1; a <= this.stop; a++) {
-            System.out.println(a + " " + (a) * (number));
+            if (a*number < 10) {
+                System.out.println(a + "      " + (a) * (number));
+            }
+            else {
+                System.out.println(a + "     " + (a) * (number));
+            }
+
         }
     }
 }

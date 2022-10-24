@@ -53,6 +53,7 @@ public class GuessingGame
                     System.out.print("Guessing Game - how many numbers? ");
                     this.upperBound = keyboard.nextInt();
                     this.playGame();
+                    this.failCount = 0;
                 } else if (cont.toLowerCase().equals("n")) {
                     System.exit(0);
                 } else {
@@ -74,7 +75,7 @@ public class GuessingGame
      * The percentage is also off on subsequent games.
      */
     public String infoOutput() {
-        String toPush = "\nIt took " + this.failCount + " guesses to guess " + this.target +
+        String toPush = "\nIt took " + this.failCount + 1 + " guesses to guess " + this.target +
                 ".\nYou guessed wrong " + (int)(((double) failCount/(upperBound))*100) +
                 " percent of the time. \n\n\nDo you want to play again? ";
         return toPush;

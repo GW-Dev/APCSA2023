@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="11">
-      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/StringRemover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Lab01_StringCleaner/StringRemover.java" afterDir="false" />
+    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="12">
+      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Lab03_GuessingGame/GuessingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Lab03_GuessingGame/GuessingGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <workItem from="1665493588770" duration="4601000" />
       <workItem from="1665666792371" duration="616000" />
       <workItem from="1666275623069" duration="222000" />
-      <workItem from="1666620902834" duration="322000" />
+      <workItem from="1666620902834" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1664286779656</created>
@@ -175,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666621009545</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="12">
+      <created>1666621270200</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666621270200</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +211,8 @@
     <MESSAGE value="9" />
     <MESSAGE value="10" />
     <MESSAGE value="11" />
-    <option name="LAST_COMMIT_MESSAGE" value="11" />
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
