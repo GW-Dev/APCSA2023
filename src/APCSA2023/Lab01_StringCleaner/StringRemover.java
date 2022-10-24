@@ -8,6 +8,8 @@ class StringRemover {
     private String remove;
     private String sentence;
 
+
+
     public StringRemover(String sen, String rem) {
         this.remove = rem;
         this.sentence= sen;
@@ -25,9 +27,6 @@ class StringRemover {
      * This method is redundant. Either make a PIV called result
      * (and assign it in removeStrings()) or get rid of this method.
      */
-    public String getResult() {
-        return this.removeStrings();
-    }
 
     public void setSentence(String s) {
         this.sentence = s;
@@ -56,6 +55,6 @@ class StringRemover {
     }
 
     public String toString() {
-        return getSentence() + " - String to remove " + getRemove() + "\n" + getResult();
+        return getSentence() + " - String to remove " + getRemove() + "\n" + removeStrings() + " \n";
     }
 }
