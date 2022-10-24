@@ -6,6 +6,9 @@ package APCSA2023.Lab01_StringCleaner;
 
 public class StringRemoverRunner
 {
+    /**
+     * A linefeed is missing from your output. See handout.
+     */
     public static void main( String args[] )
     {
         String[][] testArray = {{"xR-MxR-MHelloxR-M", "sxsssxssxsxssexssxsesss", "fuxqwexqwertyxqwexqwertyrtyxqwertyrtyn", "dogdogcatddodogdogdoggog"}, {"R-M", "xs", "qwerty", "dog"}};

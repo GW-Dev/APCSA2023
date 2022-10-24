@@ -21,6 +21,10 @@ class StringRemover {
         return sentence;
     }
 
+    /**
+     * This method is redundant. Either make a PIV called result
+     * (and assign it in removeStrings()) or get rid of this method.
+     */
     public String getResult() {
         return this.removeStrings();
     }
