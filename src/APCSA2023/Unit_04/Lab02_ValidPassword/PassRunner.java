@@ -1,4 +1,3 @@
-package APCSA2023.Lab02_ValidPassword;//(c) A+ Computer Science
 // www.apluscompsci.com
 //Name -  
 

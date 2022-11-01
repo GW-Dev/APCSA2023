@@ -1,5 +1,3 @@
-package APCSA2023.Lab03_GuessingGame;
-
 //(c) A+ Computer Science
 // www.apluscompsci.com
 //Name -

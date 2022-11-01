@@ -1,12 +1,8 @@
-package APCSA2023.Lab03_GuessingGame;
-
 //(c) A+ Computer Science
 // www.apluscompsci.com
 //Name -
 
 import java.util.Scanner;
-
-import static java.lang.System.*;
 
 public class GuessRunner {
     public static void main(String args[]) {

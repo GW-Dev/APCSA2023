@@ -1,5 +1,3 @@
-package APCSA2023.Lab04_MultiplicationTable;
-
 //(c) A+ Computer Science
 //www.apluscompsci.com
 //Name
