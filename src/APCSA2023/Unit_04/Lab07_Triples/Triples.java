@@ -27,10 +27,12 @@ class Triples
 			for (int b = 1; b < upB; b++) {
 				for (int c = 1; c < upB; c++) {
 					cDec = Math.sqrt((double) a * a + b * b);
-					if (b > a && c == Math.sqrt((double) a*a + b*b) && c == Math.round(Math.sqrt((double) a*a + b*b)) && c == Math.round(cDec) && (int) cDec == c && !(squaresToReturn.contains(b + " " + a))) {
-						if (((a%2 == 0 && b%2 != 0) || (a%2 != 0 && b%2 ==0)) && (c%2 != 0)) {
-							if (gcdByEuclidsAlgorithm(a, b) <= 1) {
-								squaresToReturn += (a + " " + b + " " + c + "\n");
+					if (b > a && c == Math.sqrt((double) a * a + b * b) && c == Math.round(Math.sqrt((double) a * a + b * b))) {
+						if (c == Math.round(cDec) && (int) cDec == c && !(squaresToReturn.contains(b + " " + a))) {
+							if (((a % 2 == 0 && b % 2 != 0) || (a % 2 != 0 && b % 2 == 0)) && (c % 2 != 0)) {
+								if (gcdByEuclidsAlgorithm(a, b) <= 1) {
+									squaresToReturn += (a + " " + b + " " + c + "\n");
+								}
 							}
 						}
 					}

@@ -5,10 +5,12 @@
 public class TriangleWord
 {
    private String word;
+   private String triWord;
 
 	public TriangleWord(String w)
 	{
 		word=w;
+		triWord = "";
 	}
 
 	public String toString()
