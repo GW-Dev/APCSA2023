@@ -31,7 +31,7 @@ class Triples
 						if (c == Math.round(cDec) && (int) cDec == c && !(squaresToReturn.contains(b + " " + a))) {
 							if (((a % 2 == 0 && b % 2 != 0) || (a % 2 != 0 && b % 2 == 0)) && (c % 2 != 0)) {
 								if (gcdByEuclidsAlgorithm(a, b) <= 1) {
-									squaresToReturn += (a + " " + b + " " + c + "\n");
+									squaresToReturn += ("\n" + a + " " + b + " " + c);
 								}
 							}
 						}
@@ -45,7 +45,6 @@ class Triples
 	public String toString()
 	{
 		String output= greatestCommonFactor(this.upperBound);
-
-		return output+"\n";
+		return output;
 	}
 }
