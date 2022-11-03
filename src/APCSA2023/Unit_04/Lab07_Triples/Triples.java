@@ -44,7 +44,24 @@ class Triples
 
 	public String toString()
 	{
-		String output= greatestCommonFactor(number);
+		double cDec;
+		String output = "";
+		for (int a = 1; a < this.number; a++) {
+			for (int b = 1; b < this.number; b++) {
+				for (int c = 1; c < this.number; c++) {
+					cDec = Math.sqrt((double) a * a + b * b);
+					if (b > a && c == Math.sqrt((double) a * a + b * b) && c == Math.round(Math.sqrt((double) a * a + b * b))) {
+						if (c == Math.round(cDec) && (int) cDec == c && !(output.contains(b + " " + a))) {
+							if (((a % 2 == 0 && b % 2 != 0) || (a % 2 != 0 && b % 2 == 0)) && (c % 2 != 0)) {
+								if (gcdByEuclidsAlgorithm(a, b) <= 1) {
+									output += ("\n" + a + " " + b + " " + c);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 		return output;
 	}
 }

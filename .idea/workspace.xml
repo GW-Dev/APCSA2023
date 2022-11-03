@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="22">
-      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab05_BackwardsString/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab05_BackwardsString/Word.java" afterDir="false" />
+    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="25">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab07_Triples/Triples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab07_Triples/Triples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +97,7 @@
       <workItem from="1667403443437" duration="2834000" />
       <workItem from="1667420124096" duration="689000" />
       <workItem from="1667420874270" duration="232000" />
-      <workItem from="1667479964003" duration="785000" />
+      <workItem from="1667479964003" duration="4565000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1664286779656</created>
@@ -301,7 +302,28 @@
       <option name="project" value="LOCAL" />
       <updated>1667480544661</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="23">
+      <created>1667480762312</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1667480762312</updated>
+    </task>
+    <task id="LOCAL-00031" summary="24">
+      <created>1667480873223</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1667480873223</updated>
+    </task>
+    <task id="LOCAL-00032" summary="25">
+      <created>1667481686063</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1667481686063</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,18 +363,10 @@
     <MESSAGE value="20" />
     <MESSAGE value="21" />
     <MESSAGE value="22" />
-    <option name="LAST_COMMIT_MESSAGE" value="22" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab05_BackwardsString/WordRunner.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="23" />
+    <MESSAGE value="24" />
+    <MESSAGE value="25" />
+    <option name="LAST_COMMIT_MESSAGE" value="25" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
