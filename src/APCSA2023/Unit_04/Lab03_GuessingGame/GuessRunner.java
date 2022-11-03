@@ -9,16 +9,11 @@ public class GuessRunner {
         boolean isPlaying = true;
         Scanner keyboard = new Scanner(System.in);
         int response;
-        while (isPlaying) {
+        do {
             System.out.print("Guessing Game - how many numbers? ");
             response = keyboard.nextInt();
             GuessingGame goodGame = new GuessingGame(response);
             goodGame.playGame();
-            if (goodGame.getContinuePlaying()) {
-
-            }
-
-
-        }
+        } while (isPlaying);
     }
 }
