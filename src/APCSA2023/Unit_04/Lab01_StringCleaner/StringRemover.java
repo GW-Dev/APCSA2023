@@ -9,8 +9,8 @@ class StringRemover {
 
 
     public StringRemover(String sen, String rem) {
-        remove=rem;
-        sentence=sen;
+        remove = rem;
+        sentence = sen;
     }
 
     public String getRemove() {
@@ -35,7 +35,7 @@ class StringRemover {
     }
 
     public String removeStrings() {
-        String senChange = sentence;
+        String senChange=sentence;
 
         while (senChange.contains(remove)) {
             int toTrash = senChange.indexOf(remove);
