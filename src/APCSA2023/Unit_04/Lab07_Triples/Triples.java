@@ -6,11 +6,11 @@ import java.lang.Math.*;
 
 class Triples
 {
-	private int upperBound;
+	private int number;
 
 	public Triples(int num)
 	{
-		this.upperBound = num;
+		number = num;
 	}
 
 	private int gcdByEuclidsAlgorithm(int n1, int n2) {
@@ -44,7 +44,7 @@ class Triples
 
 	public String toString()
 	{
-		String output= greatestCommonFactor(this.upperBound);
+		String output= greatestCommonFactor(number);
 		return output;
 	}
 }
