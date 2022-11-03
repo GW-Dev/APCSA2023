@@ -38,6 +38,6 @@ public class Word {
      * Output has incorrect formatting. See handout.
      */
     public String toString() {
-        return (this.getFirstChar()) + "\n" + (this.getLastChar()) + "\n" + this.getBackWords() + "\n" + this.word + "\n";
+        return (this.getFirstChar()) + "\n" + (this.getLastChar()) + "\n" + this.getBackWords() + "\n" + this.word + "\n\n";
     }
 }
