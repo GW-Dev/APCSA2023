@@ -9,8 +9,8 @@ class StringRemover {
 
 
     public StringRemover(String sen, String rem) {
-        this.remove = rem;
-        this.sentence= sen;
+        remove = rem;
+        sentence= sen;
     }
 
     public String getRemove() {
