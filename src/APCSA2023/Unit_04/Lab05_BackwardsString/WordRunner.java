@@ -6,7 +6,7 @@ public class WordRunner {
     public static void main(String[] args) {
         //add test cases
         String[] tc = {
-                "Hello", "World", "JukeBox", "TCEA", "TAPPS"
+                "Hello", "World", "JukeBox", "TCEA", "UIL"
         };
         Word world = new Word("");
         for (int i = 0; i < 5; i++) {
