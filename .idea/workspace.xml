@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="25">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab07_Triples/Triples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab07_Triples/Triples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab06_TriangleWords/TriangleWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab06_TriangleWords/TriangleWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab06_TriangleWords/TriangleWordRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab06_TriangleWords/TriangleWordRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +99,7 @@
       <workItem from="1667420124096" duration="689000" />
       <workItem from="1667420874270" duration="232000" />
       <workItem from="1667479964003" duration="4565000" />
+      <workItem from="1667574646532" duration="3290000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1664286779656</created>
