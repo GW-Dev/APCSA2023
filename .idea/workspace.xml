@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="31">
-      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_05/Lab02_CookieJar/CookieJar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_05/Lab02_CookieJar/CookieJar.java" afterDir="false" />
+    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="33">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab05_BackwardsString/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab05_BackwardsString/Word.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +101,7 @@
       <workItem from="1667574646532" duration="3339000" />
       <workItem from="1667578274026" duration="104000" />
       <workItem from="1667829009164" duration="1879000" />
-      <workItem from="1667831441282" duration="2364000" />
+      <workItem from="1667831441282" duration="3355000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1664286779656</created>
@@ -361,7 +362,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667833503745</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="32">
+      <created>1667833841245</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1667833841245</updated>
+    </task>
+    <task id="LOCAL-00039" summary="33">
+      <created>1667834234204</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1667834234204</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,8 +394,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6" />
-    <MESSAGE value="7" />
     <MESSAGE value="8" />
     <MESSAGE value="9" />
     <MESSAGE value="10" />
@@ -404,7 +417,9 @@
     <MESSAGE value="29" />
     <MESSAGE value="30" />
     <MESSAGE value="31" />
-    <option name="LAST_COMMIT_MESSAGE" value="31" />
+    <MESSAGE value="32" />
+    <MESSAGE value="33" />
+    <option name="LAST_COMMIT_MESSAGE" value="33" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

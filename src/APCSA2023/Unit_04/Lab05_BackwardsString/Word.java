@@ -24,7 +24,7 @@ public class Word {
     /**
      * Interesting approach.
      */
-    public String getBackWords() {
+    public String getBackWards() {
         char[] wordArray = word.toCharArray();
         char[] wordArray2 = word.toCharArray();
         for (int i = word.length(); i > 0; i--) {
@@ -38,6 +38,6 @@ public class Word {
      * Output has incorrect formatting. See handout.
      */
     public String toString() {
-        return (this.getFirstChar()) + "\n" + (this.getLastChar()) + "\n" + this.getBackWords() + "\n" + this.word + "\n\n";
+        return (this.getFirstChar()) + "\n" + (this.getLastChar()) + "\n" + this.getBackWards() + "\n" + this.word + "\n\n";
     }
 }
