@@ -10,6 +10,10 @@ class CookieJar {
         numCookies = 0;
     }
 
+    public int getStuff() {
+        return numCookies;
+    }
+
     public int addStuff(int cookAdd) {
         int leftOver = 0;
         if (cookAdd > capacity-numCookies) {
