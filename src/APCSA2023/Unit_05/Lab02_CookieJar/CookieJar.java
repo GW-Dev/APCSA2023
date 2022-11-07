@@ -1,7 +1,8 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 //Name -
-class CookieJar {
+public class CookieJar {
+
     private int capacity;
     private int numCookies;
 
