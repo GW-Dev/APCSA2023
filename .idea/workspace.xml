@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="25">
+    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="26">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab06_TriangleWords/TriangleWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab06_TriangleWords/TriangleWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab06_TriangleWords/TriangleWordRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_04/Lab06_TriangleWords/TriangleWordRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_05/Lab01_Car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_05/Lab01_Car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_05/Lab01_Car/CarRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_05/Lab01_Car/CarRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,9 @@
       <workItem from="1667420124096" duration="689000" />
       <workItem from="1667420874270" duration="232000" />
       <workItem from="1667479964003" duration="4565000" />
-      <workItem from="1667574646532" duration="3290000" />
+      <workItem from="1667574646532" duration="3339000" />
+      <workItem from="1667578274026" duration="104000" />
+      <workItem from="1667829009164" duration="1503000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1664286779656</created>
@@ -325,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667481686063</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="26">
+      <created>1667578209177</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1667578209177</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +352,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Push" />
     <MESSAGE value="Push 2" />
     <MESSAGE value="Push 3" />
     <MESSAGE value="4" />
@@ -368,7 +376,18 @@
     <MESSAGE value="23" />
     <MESSAGE value="24" />
     <MESSAGE value="25" />
-    <option name="LAST_COMMIT_MESSAGE" value="25" />
+    <MESSAGE value="26" />
+    <option name="LAST_COMMIT_MESSAGE" value="26" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/APCSA2023/Unit_05/Lab01_Car/CarRunner.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
