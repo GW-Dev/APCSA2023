@@ -53,6 +53,6 @@ class StringRemover {
     }
 
     public String toString() {
-        return getSentence() + " - String to remove " + getRemove() + "\n" + removeStrings() + " \n";
+        return getSentence() + " - String to remove " + getRemove() + "\n" + removeStrings() + " \n\n";
     }
 }
