@@ -5,6 +5,7 @@ class CookieJar {
     private int capacity;
     private int numCookies;
 
+
     public CookieJar(int cap) {
         capacity = cap;
         numCookies = 0;
