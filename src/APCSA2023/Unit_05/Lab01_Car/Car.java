@@ -18,6 +18,13 @@ class Car
         miles += toAdd;
     }
 
+    public int getMiles() {
+        return miles;
+    }
+
+    public void setWhenToChangeOil(int oC) {
+        milesTilOilChange = oC;
+    }
     public boolean timeForOilChange() {
         if (miles-lastOil > milesTilOilChange) {
             lastOil += miles;
