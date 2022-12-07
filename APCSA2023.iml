@@ -15,9 +15,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src/APCSA2023/Unit_05/Lab02_CookieJar" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/APCSA2023/Unit_06/Lab01_GroupCounter" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/APCSA2023/Unit_06/Lab02_Doggies" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/APCSA2023/Unit_07/Lab01_FactorTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/APCSA2023/Unit_07/Lab02_MadLib" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/src/APCSA2023/Unit_04" />
       <excludeFolder url="file://$MODULE_DIR$/src/APCSA2023/Unit_05" />
       <excludeFolder url="file://$MODULE_DIR$/src/APCSA2023/Unit_06" />
+      <excludeFolder url="file://$MODULE_DIR$/src/APCSA2023/Unit_07" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
