@@ -10,12 +10,10 @@ import java.util.Arrays;
 import java.util.Collections;
 import static java.lang.System.*;
 
-public class ArrayListFunHouse
-{
+public class ArrayListFunHouse {
 
-	public static ArrayList<Integer> getListOfFactors(int number)
-	{
-		ArrayList<Integer> factorList = new ArrayList<>();
+	public static ArrayList<Integer> getListOfFactors(int number) {
+		ArrayList<Integer> factorList = new ArrayList<Integer>();
 		for (int i = 2; i < number; i++) {
 			if (number % i == 0) {
 				factorList.add(i);
@@ -23,26 +21,26 @@ public class ArrayListFunHouse
 		}
 		return factorList;
 	}
-	
-	public static void keepOnlyCompositeNumbers( List<Integer> nums ) {
-		List<Integer> compositeList = new ArrayList<>();
-		int lastFactor = nums.get(nums.size()-1);
-
-		for (int j = 2; j < Math.sqrt(lastFactor); j++) {
-			for (int k = 0; k < nums.size()-1; k++) {
-				if (nums.get(k) % j == 0 && j != nums.get(k)) {
-					if (nums.get(k) > Math.sqrt(nums.get(k))) {
-						compositeList.add(nums.get(k));
-						out.println(compositeList);
-					}
-				}
+	public static boolean primeTest(int n) {
+		if (n == 2 || n == 3) {
+			return true;
+		}
+		if (n <= 1 || n % 2 == 0 || n % 3 == 0) {
+			return false;
+		}
+		for (int l = 5; l*l <= n; l+=6) {
+			if (n % l == 0 || n % (l+2) == 0) {
+				return false;
 			}
 		}
-		for (int l = 0; l < compositeList.size()-1; l++) {
-			if (!(nums.contains(compositeList.get(l)))) {
-				nums.remove()
+		return true;
+	}
+
+	public static void keepOnlyCompositeNumbers(List<Integer> nums) {
+		for (int i = 0; i <= nums.size(); i++) {
+			if (primeTest(nums.get(i))) {
+				nums.remove(nums.get(i));
 			}
 		}
-
 	}
 }
