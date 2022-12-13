@@ -14,16 +14,22 @@ public class DoggiesRunner
 		System.out.print("How many Dogs are in the pack? :: ");
 		int size = keyboard.nextInt();
 		Doggies pack = new Doggies(size);
-
+	   	System.out.println();
 		for(int i=0; i<size;i++)
 		{
-			//read in age and name of the dog
+			System.out.print("Enter the age :: ");
+			int age = keyboard.nextInt();;
+			System.out.print("Enter the name :: ");
+			String name = keyboard.next();;
+			System.out.println();
+			Dog toAdd = new Dog(age, name);
+			pack.set(i, toAdd.getAge(), toAdd.getName());
 			
 			//call the method to add a new dog to the pack
 			
 		}		
 		System.out.println("pack :: "+pack);
-		System.out.println("NAME OF OLDEST :: "+pack.getNameOfOldest());
+		System.out.println("\nNAME OF OLDEST :: "+pack.getNameOfOldest());
 		System.out.println("NAME OF YOUNGEST :: "+pack.getNameOfYoungest());		
 	}		
 }

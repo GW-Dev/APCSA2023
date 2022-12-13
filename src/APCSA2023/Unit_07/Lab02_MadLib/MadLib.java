@@ -26,15 +26,16 @@ public class MadLib
 	}
 	public MadLib(String fileName)
 	{
-		//load stuff
-		this()
+		this();
+		this.loadVerbs();
+		this.loadNouns();
+		this.loadAdjectives();
 		try {
 			Scanner file = new Scanner(new File(fileName));
 			sen = new ArrayList<String>();
 			while (file.hasNext()) {
 				sen.add(file.next());
 			}
-
 		}
 		catch(Exception e){
 			out.println("senLoad Exception");

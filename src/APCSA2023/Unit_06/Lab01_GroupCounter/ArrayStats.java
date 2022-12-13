@@ -46,27 +46,20 @@ public class ArrayStats {
 	}
 
 
-		public int getNumGroupsOfSize (int size)
-		{
+		public int getNumGroupsOfSize (int size) {
 			int groupNum = 0;
-			String[] groupNumArr = new String[size];
-			String[] singleArr = new String[size];
-			for (int i = 0; i < array.length; i+=(size)) {
-				for (int j = 0; j < size; j++) {
-					groupNumArr[j] = array[i];
-					Arrays.fill(singleArr, groupNumArr[0]);
-					if ((groupNumArr[j] != null && singleArr[j] != null)) {
-						out.println("Single Array " + Arrays.toString(singleArr) + " Group Array " + Arrays.toString(groupNumArr));
-						if (Arrays.equals(groupNumArr,singleArr) && j % size == 0) {
-							out.println("CHOSEN: Single Array " + Arrays.toString(singleArr) + " Group Array " + Arrays.toString(groupNumArr));
-							groupNum++;
-						}
-					}
-
+			String[] checkArr = new String[size];
+			for (int i = 0; i < array.length; i++) {
+				if (i + size < array.length) {
+					Arrays.fill(checkArr, array[i]);
+				}
+					if (Arrays.equals(array, checkArr)) {
+						groupNum++;
 				}
 			}
 			return groupNum;
 		}
+
 
 		public String toString()
 		{
