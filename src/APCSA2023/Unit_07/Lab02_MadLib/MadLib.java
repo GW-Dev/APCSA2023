@@ -20,20 +20,21 @@ public class MadLib
 	
 	public MadLib()
 	{
-		//add code here
-
+		this.loadVerbs();
+		this.loadNouns();
+		this.loadAdjectives();
 	}
 	public MadLib(String fileName)
 	{
 		//load stuff
+		this()
 		try {
-
-			File sentenceFile = new File(fileName);
-			Scanner senScan = new Scanner(sentenceFile);
+			Scanner file = new Scanner(new File(fileName));
 			sen = new ArrayList<String>();
-			while (senScan.hasNext()) {
-				sen.add(senScan.next());
+			while (file.hasNext()) {
+				sen.add(file.next());
 			}
+
 		}
 		catch(Exception e){
 			out.println("senLoad Exception");
@@ -49,6 +50,9 @@ public class MadLib
 				String nounLine = nounLoader.nextLine();
 				nouns.add(nounLine);
 			}
+			nouns.remove(nouns.size()-1);
+			nouns.remove(nouns.size()-1);
+			out.println(nouns);
 		}
 		catch(Exception e)
 		{
@@ -65,6 +69,9 @@ public class MadLib
 				String verbLine = verbLoader.nextLine();
 				verbs.add(verbLine);
 			}
+			verbs.remove(verbs.size()-1);
+			verbs.remove(verbs.size()-1);
+			out.println(verbs);
 		}
 		catch(Exception e)
 		{
@@ -82,6 +89,9 @@ public class MadLib
 				String adjLine = adjLoader.nextLine();
 				adjectives.add(adjLine);
 			}
+			adjectives.remove(adjectives.size()-1);
+			adjectives.remove(adjectives.size()-1);
+			out.println(adjectives);
 		}
 		catch(Exception e)
 		{
@@ -98,20 +108,36 @@ public class MadLib
 	public String getRandomNoun()
 	{
 		int randInd = (int) (Math.random() * nouns.size());
-		return verbs.get(randInd);
+		return nouns.get(randInd);
 	}
 	
 	public String getRandomAdjective()
 	{
 		int randInd = (int) (Math.random() * adjectives.size());
-		return verbs.get(randInd);
+		return adjectives.get(randInd);
 	}		
 
 	public String toString()
 	{
-		for (int j = 0; j < sen.size()+1; j++) {
-			if (sen.get())
+		String toReturn = "";
+		for (int i = 0; i < sen.size(); i++) {
+			if (sen.get(i).equals(Character.toString('#'))) {
+				sen.set(i, getRandomNoun());
+			} else if (sen.get(i).equals(Character.toString('@'))) {
+				sen.set(i, getRandomVerb());
+			} else if (sen.get(i).equals(Character.toString('&'))) {
+				sen.set(i, getRandomAdjective());
+			}
 		}
-	   return "\n\n\n";
+	   for (int j = 0; j < sen.size(); j++) {
+		   if (j + 1 < sen.size()) {
+			   toReturn += sen.get(j) + " ";
+		   }
+		   else if (j + 1 >= sen.size()) {
+			   toReturn += sen.get(j);
+		   }
+
+	   }
+	   return toReturn;
 	}
 }
