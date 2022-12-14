@@ -26,7 +26,7 @@ public class ArrayStats {
 				array[index] = String.valueOf(modInput.charAt(index));
 			}
 		}
-		array[array.length-1] = input.substring(input.length()-1, input.length());
+		array[array.length-1] = input.substring(input.length()-1);
 	}
 
 	public void setArray(String list) {
@@ -49,19 +49,20 @@ public class ArrayStats {
 		public int getNumGroupsOfSize (int size) {
 			int groupNum = 0;
 			int groupTracker = 0;
-			String currentInt = array[0];
 			String groupInt = array[0];
 			for (int i = 0; i < array.length; i++) {
-				currentInt = array[i];
-				if (!(groupInt.equals(currentInt))) {
-					groupInt = array[i];
-					groupTracker = 0;
-				}
-				else if (groupInt.equals(currentInt)) {
-					groupTracker++;
-				}
-				if (groupTracker == size) {
+				if (groupTracker+1 == size) {
 					groupNum++;
+					out.println("TRUE  " + array[i]);
+				}
+				if ((groupInt.equals(array[i]))) {
+					groupTracker++;
+
+				}
+				else if (!(groupInt.equals(array[i]))) {
+
+					groupTracker = 0;
+					groupInt = array[i];
 				}
 			}
 			return groupNum;
