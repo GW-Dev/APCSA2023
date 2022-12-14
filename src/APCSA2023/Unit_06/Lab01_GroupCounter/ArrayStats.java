@@ -48,13 +48,20 @@ public class ArrayStats {
 
 		public int getNumGroupsOfSize (int size) {
 			int groupNum = 0;
-			String[] checkArr = new String[size];
+			int groupTracker = 0;
+			String currentInt = array[0];
+			String groupInt = array[0];
 			for (int i = 0; i < array.length; i++) {
-				if (i + size < array.length) {
-					Arrays.fill(checkArr, array[i]);
+				currentInt = array[i];
+				if (!(groupInt.equals(currentInt))) {
+					groupInt = array[i];
+					groupTracker = 0;
 				}
-					if (Arrays.equals(array, checkArr)) {
-						groupNum++;
+				else if (groupInt.equals(currentInt)) {
+					groupTracker++;
+				}
+				if (groupTracker == size) {
+					groupNum++;
 				}
 			}
 			return groupNum;
