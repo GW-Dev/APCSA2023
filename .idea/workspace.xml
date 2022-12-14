@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="40">
+    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="42">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_06/Lab01_GroupCounter/ArrayStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_06/Lab01_GroupCounter/ArrayStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_07/Lab01_FactorTree/ArrayListFunHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_07/Lab01_FactorTree/ArrayListFunHouse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +15,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="c8c61fde-65e5-4082-bc31-9dda5fee1864" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -137,6 +133,7 @@
       <workItem from="1670898090669" duration="1735000" />
       <workItem from="1670899850583" duration="1109000" />
       <workItem from="1670979260074" duration="1215000" />
+      <workItem from="1671033589176" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1664286779656</created>
@@ -418,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667841186902</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="42">
+      <created>1671033610269</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1671033610269</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +440,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="9" />
     <MESSAGE value="10" />
     <MESSAGE value="11" />
     <MESSAGE value="12" />
@@ -461,7 +464,8 @@
     <MESSAGE value="32" />
     <MESSAGE value="33" />
     <MESSAGE value="34" />
-    <option name="LAST_COMMIT_MESSAGE" value="34" />
+    <MESSAGE value="42" />
+    <option name="LAST_COMMIT_MESSAGE" value="42" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
