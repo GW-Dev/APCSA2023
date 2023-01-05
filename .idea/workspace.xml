@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="46">
+    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="47">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab01_MatrixSumming/MatrixSumming1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab01_MatrixSumming/MatrixSumming1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab01_MatrixSumming/MatrixSumming1Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab01_MatrixSumming/MatrixSumming1Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +60,7 @@
       <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src\APCSA2023" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src\APCSA2023\Unit_08\Lab04_TotalRow" />
       <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src\APCSA2023\Unit_08\Lab02_MatrixCount" />
       <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src\APCSA2023" />
       <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src" />
@@ -138,7 +141,7 @@
       <workItem from="1670952770780" duration="4000" />
       <workItem from="1670952820931" duration="1267000" />
       <workItem from="1672927854219" duration="1386000" />
-      <workItem from="1672929748643" duration="731000" />
+      <workItem from="1672929748643" duration="2131000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1664286779656</created>
@@ -469,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672930261980</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="47">
+      <created>1672930642462</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1672930642462</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +498,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="16" />
     <MESSAGE value="17" />
     <MESSAGE value="18" />
     <MESSAGE value="19" />
@@ -513,7 +522,8 @@
     <MESSAGE value="44" />
     <MESSAGE value="45" />
     <MESSAGE value="46" />
-    <option name="LAST_COMMIT_MESSAGE" value="46" />
+    <MESSAGE value="47" />
+    <option name="LAST_COMMIT_MESSAGE" value="47" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -535,10 +545,6 @@
           <url>file://$PROJECT_DIR$/src/APCSA2023/Unit_06/Lab01_GroupCounter/ArrayStatsRunner.java</url>
           <line>3</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab01_MatrixSumming/MatrixSumming1Runner.java</url>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
