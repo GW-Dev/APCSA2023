@@ -1,7 +1,11 @@
+//(c) A+ Computer Science
+//www.apluscompsci.com
+//Name -
+
 import java.util.*;
 import java.io.*; 
 
-public class MatrixSumming1
+public class MatrixCount1
 {
     private static int[][] m = {{ 1, 2, 3, 4, 5},
     										{ 6, 7, 8, 9, 0},
@@ -9,9 +13,9 @@ public class MatrixSumming1
     										{ 6, 7, 8, 9, 0},
     										{ 5, 4, 3, 2, 1}};
 
-    public static int sum(  )
+    public static int count( int val  )
     {
-		//add code here
+		//add code
 		return 0;
     }
 }
