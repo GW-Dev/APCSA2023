@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="43">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="44">
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab01_MatrixSumming/1.matrix_sum1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab02_MatrixCount/2.matrix_count1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab03_Biggest/3.matrix_biggest.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab04_TotalRow/4.matrix_totaltherows.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab05_MatrixSumming2/5.matrix_sum2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab06_FancyWord/8.matrix_fancyword.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab07_FancyWord2/9.matrix_fancyword2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab08_TicTacToe/12.matrix_tictactoe.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab09_MagicSquare1/14.matrix_magic[]part1.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +145,7 @@
       <workItem from="1670952770780" duration="4000" />
       <workItem from="1670952820931" duration="1267000" />
       <workItem from="1672927854219" duration="1386000" />
+      <workItem from="1672929748643" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1664286779656</created>
@@ -446,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672929470418</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="44">
+      <created>1672929798299</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1672929798299</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +481,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="13" />
     <MESSAGE value="14" />
     <MESSAGE value="15" />
     <MESSAGE value="16" />
@@ -490,7 +505,8 @@
     <MESSAGE value="38" />
     <MESSAGE value="42" />
     <MESSAGE value="43" />
-    <option name="LAST_COMMIT_MESSAGE" value="43" />
+    <MESSAGE value="44" />
+    <option name="LAST_COMMIT_MESSAGE" value="44" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
