@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="44">
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab01_MatrixSumming/1.matrix_sum1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab02_MatrixCount/2.matrix_count1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab03_Biggest/3.matrix_biggest.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab04_TotalRow/4.matrix_totaltherows.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab05_MatrixSumming2/5.matrix_sum2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab06_FancyWord/8.matrix_fancyword.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab07_FancyWord2/9.matrix_fancyword2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab08_TicTacToe/12.matrix_tictactoe.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab09_MagicSquare1/14.matrix_magic[]part1.pdf" afterDir="false" />
+    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="46">
+      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab01_MatrixSumming/MatrixSumming1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab01_MatrixSumming/MatrixSumming1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +58,7 @@
       <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src\APCSA2023" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src\APCSA2023\Unit_08\Lab02_MatrixCount" />
       <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src\APCSA2023" />
       <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src" />
     </key>
@@ -145,7 +138,7 @@
       <workItem from="1670952770780" duration="4000" />
       <workItem from="1670952820931" duration="1267000" />
       <workItem from="1672927854219" duration="1386000" />
-      <workItem from="1672929748643" duration="314000" />
+      <workItem from="1672929748643" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1664286779656</created>
@@ -462,7 +455,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672929798299</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="45">
+      <created>1672930074428</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1672930074428</updated>
+    </task>
+    <task id="LOCAL-00047" summary="46">
+      <created>1672930261980</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1672930261980</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,8 +488,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="14" />
-    <MESSAGE value="15" />
     <MESSAGE value="16" />
     <MESSAGE value="17" />
     <MESSAGE value="18" />
@@ -506,7 +511,9 @@
     <MESSAGE value="42" />
     <MESSAGE value="43" />
     <MESSAGE value="44" />
-    <option name="LAST_COMMIT_MESSAGE" value="44" />
+    <MESSAGE value="45" />
+    <MESSAGE value="46" />
+    <option name="LAST_COMMIT_MESSAGE" value="46" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -528,6 +535,10 @@
           <url>file://$PROJECT_DIR$/src/APCSA2023/Unit_06/Lab01_GroupCounter/ArrayStatsRunner.java</url>
           <line>3</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab01_MatrixSumming/MatrixSumming1Runner.java</url>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
