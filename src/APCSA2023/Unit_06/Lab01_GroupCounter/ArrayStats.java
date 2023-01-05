@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+// A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -36,23 +36,23 @@ public class ArrayStats {
 	}
 
 
-		public int getNumGroupsOfSize (int size) {
+		public int getNumGroupsOfSize(int size) {
 			int groupNum = 0;
 			int groupTracker = 0;
 			int groupInt = array[0];
 			for (int i : array) {
-				if (groupTracker+1 == size) {
+				if (groupTracker == size) {
 					groupNum++;
-					//out.println("TRUE  " + i);
+					out.println("TRUE  " + i);
 				}
 				if ((groupInt == (i))) {
 					groupTracker++;
 
 				}
 				else if (!(groupInt == (i))) {
-
 					groupTracker = 0;
 					groupInt = i;
+					out.println("BREAK  " + i);
 				}
 			}
 			return groupNum;
