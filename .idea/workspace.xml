@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="48">
+    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="43">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_06/Lab01_GroupCounter/ArrayStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_06/Lab01_GroupCounter/ArrayStats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab01_MatrixSumming/MatrixSumming1Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab01_MatrixSumming/MatrixSumming1Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,9 +16,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="c8c61fde-65e5-4082-bc31-9dda5fee1864" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,7 +30,6 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -45,7 +43,7 @@
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -58,8 +56,6 @@
       <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src\APCSA2023" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src\APCSA2023\Unit_08\Lab04_TotalRow" />
-      <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src\APCSA2023\Unit_08\Lab02_MatrixCount" />
       <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src\APCSA2023" />
       <recent name="C:\Users\grant\IdeaProjects\APCSA2023\src" />
     </key>
@@ -132,14 +128,14 @@
       <workItem from="1668607955854" duration="2906000" />
       <workItem from="1669644347722" duration="4762000" />
       <workItem from="1669816142857" duration="5204000" />
-      <workItem from="1670424039393" duration="2297000" />
-      <workItem from="1670506517214" duration="6565000" />
-      <workItem from="1670890724825" duration="81000" />
-      <workItem from="1670890880011" duration="2548000" />
-      <workItem from="1670952770780" duration="4000" />
-      <workItem from="1670952820931" duration="1267000" />
-      <workItem from="1672927854219" duration="1386000" />
-      <workItem from="1672929748643" duration="2483000" />
+      <workItem from="1670424039393" duration="303000" />
+      <workItem from="1670896633485" duration="553000" />
+      <workItem from="1670897201079" duration="872000" />
+      <workItem from="1670898090669" duration="1735000" />
+      <workItem from="1670899850583" duration="1109000" />
+      <workItem from="1670979260074" duration="1215000" />
+      <workItem from="1671033589176" duration="702000" />
+      <workItem from="1673208372952" duration="151000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1664286779656</created>
@@ -421,70 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667841186902</updated>
     </task>
-    <task id="LOCAL-00041" summary="35">
-      <created>1670424367319</created>
+    <task id="LOCAL-00041" summary="42">
+      <created>1671033610269</created>
       <option name="number" value="00041" />
       <option name="presentableId" value="LOCAL-00041" />
       <option name="project" value="LOCAL" />
-      <updated>1670424367319</updated>
+      <updated>1671033610269</updated>
     </task>
-    <task id="LOCAL-00042" summary="38">
-      <created>1670890752592</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1670890752592</updated>
-    </task>
-    <task id="LOCAL-00043" summary="42">
-      <created>1672927907009</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1672927907009</updated>
-    </task>
-    <task id="LOCAL-00044" summary="43">
-      <created>1672929470418</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1672929470418</updated>
-    </task>
-    <task id="LOCAL-00045" summary="44">
-      <created>1672929798299</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1672929798299</updated>
-    </task>
-    <task id="LOCAL-00046" summary="45">
-      <created>1672930074428</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1672930074428</updated>
-    </task>
-    <task id="LOCAL-00047" summary="46">
-      <created>1672930261980</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1672930261980</updated>
-    </task>
-    <task id="LOCAL-00048" summary="47">
-      <created>1672930642462</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1672930642462</updated>
-    </task>
-    <task id="LOCAL-00049" summary="48">
-      <created>1672931988342</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1672931988342</updated>
-    </task>
-    <option name="localTasksCounter" value="50" />
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,7 +442,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="10" />
+    <MESSAGE value="11" />
+    <MESSAGE value="12" />
+    <MESSAGE value="13" />
+    <MESSAGE value="14" />
+    <MESSAGE value="15" />
+    <MESSAGE value="16" />
+    <MESSAGE value="17" />
     <MESSAGE value="18" />
     <MESSAGE value="19" />
     <MESSAGE value="20" />
@@ -519,16 +466,8 @@
     <MESSAGE value="32" />
     <MESSAGE value="33" />
     <MESSAGE value="34" />
-    <MESSAGE value="35" />
-    <MESSAGE value="38" />
     <MESSAGE value="42" />
-    <MESSAGE value="43" />
-    <MESSAGE value="44" />
-    <MESSAGE value="45" />
-    <MESSAGE value="46" />
-    <MESSAGE value="47" />
-    <MESSAGE value="48" />
-    <option name="LAST_COMMIT_MESSAGE" value="48" />
+    <option name="LAST_COMMIT_MESSAGE" value="42" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -542,14 +481,8 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APCSA2023/Unit_07/Lab02_MadLib/MadLib.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/APCSA2023/Unit_06/Lab01_GroupCounter/ArrayStatsRunner.java</url>
-          <line>3</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/APCSA2023/Unit_06/Lab01_GroupCounter/ArrayStats.java</url>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -557,5 +490,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/APCSA2023$ArrayStatsRunner.ic" NAME="ArrayStatsRunner Coverage Results" MODIFIED="1670977610595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -21,7 +21,7 @@ public class MatrixSumming1Runner
 		for (int i = 0; i < m.length; i++) {
 			for (int j = 0; j < m[i].length; j++) {
 				prettyMatrix += m[i][j] + " ";
-				if (i == initRow || (i == 0 && (m[i].equals(rowLength)))) {
+				if (j == 4) {
 					initRow++;
 					prettyMatrix += "\n";
 
@@ -29,7 +29,7 @@ public class MatrixSumming1Runner
 			}
 		}
 		//add code here
-		out.println("Matrix values\n" + prettyMatrix + "\n");
+		out.println("Matrix values\n" + prettyMatrix);
 		out.println("The sum is :: " + MatrixSumming1.sum());
 	}
 }
