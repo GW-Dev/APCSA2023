@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+// A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date - 
 //Class -
@@ -29,7 +29,6 @@ public class MatrixSumming1Runner
 			}
 		}
 		//add code here
-		out.println("Matrix values\n" + prettyMatrix);
 		out.println("The sum is :: " + MatrixSumming1.sum());
 	}
 }

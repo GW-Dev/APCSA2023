@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="43">
+    <list default="true" id="a9fa6e04-fa14-4a1c-a53c-25fd60274efb" name="Changes" comment="60">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_06/Lab01_GroupCounter/ArrayStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_06/Lab01_GroupCounter/ArrayStats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab01_MatrixSumming/MatrixSumming1Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/APCSA2023/Unit_08/Lab01_MatrixSumming/MatrixSumming1Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +134,7 @@
       <workItem from="1670899850583" duration="1109000" />
       <workItem from="1670979260074" duration="1215000" />
       <workItem from="1671033589176" duration="702000" />
-      <workItem from="1673208372952" duration="151000" />
+      <workItem from="1673208372952" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push">
       <created>1664286779656</created>
@@ -424,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671033610269</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="60">
+      <created>1673208551391</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1673208551391</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10" />
     <MESSAGE value="11" />
     <MESSAGE value="12" />
     <MESSAGE value="13" />
@@ -467,7 +472,8 @@
     <MESSAGE value="33" />
     <MESSAGE value="34" />
     <MESSAGE value="42" />
-    <option name="LAST_COMMIT_MESSAGE" value="42" />
+    <MESSAGE value="60" />
+    <option name="LAST_COMMIT_MESSAGE" value="60" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
