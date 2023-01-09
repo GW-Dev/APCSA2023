@@ -6,7 +6,8 @@ public class MatrixCount1Runner
 {
 	public static void main( String args[] ) throws Exception
 	{
-		//add code
+		int num = 21;
+		System.out.println("The " + num + " count is :: " + MatrixCount1.count(num));
 	}
 }
 
